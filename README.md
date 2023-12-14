@@ -14,8 +14,14 @@ NetGuard ML leverages advanced machine learning techniques to enhance network se
 ## Usage
 Each script in the respective folders (`Capture`, `Measurements`, `Upload`) is designed for specific tasks within the network monitoring and analysis pipeline. Replace placeholder values with your specific configurations.
 
+To run a script, navigate to its directory and execute it using Python. For example:
+
 ## Installation
 Ensure the installation of all required Python libraries as per the individual script requirements.
+
+## Contribution
+Contributions to enhance and expand the project functionalities are welcome. Please follow standard coding practices and provide documentation for any new features.
+
 
 ## Contribution
 Created by: Amgad S Hawari, if you have any questions or concerns please reach out to amgad@ucsb.edu for more information
