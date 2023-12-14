@@ -23,8 +23,7 @@ class RandomForestModel:
         report = classification_report(self.y_test, predictions)
         print(f"Accuracy: {accuracy}\n\nClassification Report:\n{report}")
 
-# Example Usage
-# Replace 'path_to_your_dataset.csv' with the path to your dataset
+
 rf_model = RandomForestModel('path_to_your_dataset.csv')
 rf_model.preprocess_data()
 rf_model.train_model()
