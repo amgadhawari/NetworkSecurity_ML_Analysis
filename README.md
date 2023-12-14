@@ -1,25 +1,58 @@
-# NetworkSecurity_ML_Analysis
-
+```markdown
 # NetGuard ML Project
 
 ## Overview
-NetGuard ML leverages advanced machine learning techniques to enhance network security and efficiency. Focused on dynamic congestion control, the project employs a Random Forest classifier and other algorithms to predict and manage network congestion.
+NetGuard ML employs advanced machine learning techniques, such as Random Forest classifiers, for enhancing network security and efficiency, particularly focusing on dynamic congestion control.
 
-## Components
-- **Data Collection**: Scripts for capturing and preprocessing network traffic data.
-- **Performance Monitoring**: Tools to monitor network performance metrics such as latency, packet loss, and throughput.
-- **Traffic Analysis**: Analysis of network traffic to detect congestion patterns and security threats.
-- **Upload Tasks**: Functionality for uploading data to cloud storage or FTP servers for further processing and analysis.
+## Getting Started
+To reproduce the results in the report, follow these structured steps:
 
-## Usage
-Each script in the respective folders (`Capture`, `Measurements`, `Upload`) is designed for specific tasks within the network monitoring and analysis pipeline. Replace placeholder values with your specific configurations.
+### Prerequisites
+- Python 3.x
+- Libraries: pandas, scikit-learn, numpy, Scapy, ftplib, requests
+  - Install using `pip install pandas scikit-learn numpy scapy ftplib requests`
 
-To run a script, navigate to its directory and execute it using Python. For example:
+### Data Collection and Preprocessing
+1. **Capture Network Data**: Use the scripts in the `Capture` folder to collect network traffic data.
+   ```bash
+   python Capture/tcpdump.py
+   ```
+2. **Preprocess Data**: Utilize preprocessing scripts (if available in the `Preprocessing` folder) to prepare the data for analysis.
 
-## Installation
-Ensure the installation of all required Python libraries as per the individual script requirements.
+### Network Performance Monitoring
+- Execute scripts in the `Measurements` folder to gather network performance metrics.
+  ```bash
+  python Measurements/network_performance_metrics.py
+  ```
 
-## Contribution
-Created by: Amgad S Hawari, if you have any questions or concerns please reach out to amgad@ucsb.edu for more information
+### Data Analysis
+- Analyze the network traffic for patterns related to congestion or security threats.
+  ```bash
+  python Analysis/network_data_analyzer.py
+  ```
 
+### Model Training and Evaluation
+- Train the Random Forest classifier and evaluate its performance using the script in the `ModelTraining` folder.
+  ```bash
+  python ModelTraining/random_forest_classifier.py
+  ```
+
+### Reproducing Specific Results
+- To replicate specific results or figures presented in the report, run the corresponding analysis or model training scripts with the same dataset and parameters used in the study.
+
+### Upload Results
+- For uploading the results or processed data to cloud storage or an FTP server, use scripts in the `Upload` folder.
+  ```bash
+  python Upload/upload_to_cloud.py
+  python Upload/upload_to_ftp.py
+  ```
+
+## Contributing
+We welcome contributions to enhance and expand the project's functionalities. Follow standard coding practices and document any new features or changes.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+```
+
+This README provides a comprehensive guide for setting up the project environment, running scripts for various tasks, and reproducing results from your report. It's structured to be user-friendly and straightforward, guiding users through each step of the process.
 
