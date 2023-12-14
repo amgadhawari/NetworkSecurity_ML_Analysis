@@ -18,6 +18,5 @@ class FTPUploader:
             ftp.storbinary(f'STOR {remote_path}', file)
             print(f"File {file_path} uploaded to {self.host}/{remote_path}")
 
-# Example Usage
 ftp_uploader = FTPUploader('ftp.example.com', 'your_username', 'your_password')
 ftp_uploader.upload_file('/path/to/your/local_file.txt', 'remote/directory/remote_file.txt')
