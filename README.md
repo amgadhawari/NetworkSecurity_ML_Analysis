@@ -1,4 +1,4 @@
-```markdown
+
 # NetGuard ML Project
 
 ## Overview
@@ -47,12 +47,5 @@ To reproduce the results in the report, follow these structured steps:
   python Upload/upload_to_ftp.py
   ```
 
-## Contributing
-We welcome contributions to enhance and expand the project's functionalities. Follow standard coding practices and document any new features or changes.
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-```
-
-This README provides a comprehensive guide for setting up the project environment, running scripts for various tasks, and reproducing results from your report. It's structured to be user-friendly and straightforward, guiding users through each step of the process.
-
+## Contact Me
+Please reach out to amgad@ucsb.edu, if you have any questions, comments, or concerns. 
