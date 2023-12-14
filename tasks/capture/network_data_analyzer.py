@@ -27,7 +27,6 @@ class NetworkDataAnalyzer:
         """
         packets = self._parse_packets()
 
-        # Example analysis: Count packets by protocol
         protocol_counts = {}
         for packet in packets:
             protocol = type(packet).__name__
@@ -44,6 +43,5 @@ class NetworkDataAnalyzer:
         df.to_csv(report_path, index=False)
         print(f"Analysis report saved to: {report_path}")
 
-# Example Usage
 analyzer = NetworkDataAnalyzer('/path/to/capture_file.pcap')
 analyzer.save_analysis_report('/path/to/analysis_report.csv')
