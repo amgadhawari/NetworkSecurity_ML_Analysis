@@ -22,6 +22,5 @@ class S3Uploader:
         except NoCredentialsError:
             print("Credentials not available")
 
-# Example Usage
 s3_uploader = S3Uploader('your_bucket_name')
 s3_uploader.upload_file('/path/to/your/file.txt', 's3_file_name.txt')
