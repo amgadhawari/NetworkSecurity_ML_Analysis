@@ -1,6 +1,5 @@
 # NetworkSecurity_ML_Analysis
 
-```markdown
 # NetGuard ML Project
 
 ## Overview
@@ -20,5 +19,5 @@ Ensure the installation of all required Python libraries as per the individual s
 
 ## Contribution
 Created by: Amgad S Hawari, if you have any questions or concerns please reach out to amgad@ucsb.edu for more information
-```
+
 
